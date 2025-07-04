@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://images.unsplash.com/photo-1602872030217-2b21630c18b3') center/cover no-repeat fixed;
+  color: #2e2e2e;
+}
+header {
+  background-color: rgba(56, 142, 60, 0.9);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+header img {
+  height: 80px;
+}
+nav {
+  background-color: rgba(46, 125, 50, 0.9);
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+nav a.active {
+  background-color: white;
+  color: #2e7d32;
+  padding: 5px 12px;
+  border-radius: 6px;
+}
+.hero {
+  background: rgba(0, 0, 0, 0.5);
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+section {
+  padding: 40px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 20px;
+  border-radius: 10px;
+  display: none;
+}
+.features, .product-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.feature, .product {
+  background: #e8f5e9;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+.consult-form input,
+.consult-form select,
+.consult-form textarea,
+.consult-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+.video-section iframe {
+  max-width: 560px;
+  width: 100%;
+  height: 315px;
+}
+footer {
+  background-color: rgba(27, 94, 32, 0.9);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

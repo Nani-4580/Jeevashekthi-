@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JeevaShekthi - For Organic India</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header onclick="toggleMenu()">
+    <img src="logo.png" alt="JeevaShekthi Logo" />
+    <h1>JeevaShekthi</h1>
+    <p>Empowering Organic Farmers Across India 🌱<br><small>(Tap to show/hide menu)</small></p>
+  </header>
+
+  <nav id="mainNav">
+    <a onclick="showSection('features')">Features</a>
+    <a onclick="showSection('products')">Products</a>
+    <a onclick="showSection('videos')">Videos</a>
+    <a onclick="showSection('market')">Market</a>
+    <a onclick="showSection('consult')">Consult</a>
+    <a onclick="showSection('login')">Login</a>
+    <a onclick="showSection('contact')">Contact</a>
+  </nav>
+
+  <div class="hero"><h1>Grow Natural, Live Pure</h1></div>
+
+  <section id="features">
+    <h2>Our Features</h2>
+    <div class="features">
+      <div class="feature"><h3>Bug Detection</h3><p>AI image analysis for pests.</p></div>
+      <div class="feature"><h3>Video Guides</h3><p>Learn Jeevamrutham preparation.</p></div>
+      <div class="feature"><h3>Buy/Sell</h3><p>Marketplace for organic tools.</p></div>
+      <div class="feature"><h3>Consult</h3><p>Talk to agriculture experts.</p></div>
+    </div>
+  </section>
+
+  <section id="products">
+    <h2>Organic Products</h2>
+    <div class="product-section">
+      <div class="product"><img src="https://via.placeholder.com/250x150?text=Jeevamrutham" /><h4>Jeevamrutham</h4><p>Traditional organic fertilizer.</p><button>Buy Now</button></div>
+      <div class="product"><img src="https://via.placeholder.com/250x150?text=Drava+Jeevamrutham" /><h4>Drava Jeevamrutham</h4><p>Liquid fertilizer.</p><button>Buy Now</button></div>
+    </div>
+  </section>
+
+  <section id="market">
+    <h2>Marketplace</h2>
+    <form class="consult-form">
+      <input type="text" placeholder="Your Name" />
+      <input type="text" placeholder="Product" />
+      <input type="number" placeholder="Price ₹" />
+      <textarea placeholder="Description"></textarea>
+      <button>List Product</button>
+    </form>
+  </section>
+
+  <section id="consult">
+    <h2>Consult Experts</h2>
+    <div class="consult-form">
+      <input type="text" placeholder="Name" />
+      <input type="email" placeholder="Email" />
+      <select><option>Audio Call</option><option>Video Call</option></select>
+      <textarea placeholder="Your Question"></textarea>
+      <button>Book</button>
+    </div>
+  </section>
+
+  <section id="login">
+    <h2>Login</h2>
+    <div class="consult-form">
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <button>Login</button>
+    </div>
+  </section>
+
+  <section id="videos">
+    <h2>Videos</h2>
+    <div class="video-section">
+      <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/kfYVo5IywzI" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: support@jeevashekthi.org<br>Phone: +91 9948054818</p>
+  </section>
+
+  <footer><p>&copy; 2025 JeevaShekthi 🇮🇳</p></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
